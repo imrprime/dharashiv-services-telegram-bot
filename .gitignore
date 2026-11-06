@@ -1,0 +1,21 @@
+# Secret configuration
+.env
+
+# SQLite Database (user leads and requests)
+leads.db
+*.db
+*.db-journal
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+env/
+venv/
+ENV/
+
+# Log files
+*.log
